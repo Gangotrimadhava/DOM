@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>first</h1>
+    <h1  class="select">second</h1>
+    <h1 class="select">third</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium numquam repellat vitae error eos cumque, odio sit soluta facere nesciunt unde earum odit modi impedit quaerat architecto, iure illo amet!</p>
+    <p id ="paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo beatae accusamus tempora animi incidunt ipsa consequuntur quam voluptatem perspiciatis perferendis odit quae itaque laborum molestiae, debitis adipisci id. Blanditiis, aut.</p>
+   <div>
+    <h1> this is a DOM class</h1>
+    <h1> frontend made easy </h1>
+   </div>
+   <div id="selection">
+    <h1>this is a DOM class</h1>
+    <h1>frontend made easy</h1>
+   </div>
+   <script>
+
+         let allh1s=document.querySelectorAll("#paragraph")
+        let allh1s =document.querySelector("#paragraph")
+        allh1s.style.backgroundColor="green";
+
+        console.log(allh1s)
+    console.log( document.querySelectorAll ("h1")[0].innerHTML)
+     console.log( document.querySelectorAll ("h1")[1].innerHTML)
+     console.log( document.querySelectorAll ("h1")[2].innerHTML)
+     console.log( document.querySelector("p"))
+     console.log( document.getElementsById("select"))
+
+    </script>
+</body>
+</html>
